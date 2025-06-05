@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: saludo
-        run: echo "Hola!!"
+        run: |
+          echo "Hola!!"
+          echo "estoy haciendo un pipe"
       - name: despedida
         run: echo "Adiós!!"
