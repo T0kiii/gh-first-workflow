@@ -1,0 +1,10 @@
+name: Mi workflow
+
+on: workflow_dispatch
+
+jobs:
+  mi-tarea:
+    runs-on: WIN11-MINIPC
+    steps:
+      - name: print algo
+        run: echo algo
