@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   mi-tarea:
-    runs-on: [self-hosted, WIN11-MINIPC]
+    runs-on: [self-hosted]
     steps:
       - name: print algo
         run: echo algo
