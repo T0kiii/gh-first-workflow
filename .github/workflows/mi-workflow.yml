@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   mi-tarea:
-    runs-on: [self-hosted]
+    runs-on: [self-hosted, windows, x64]
     steps:
       - name: print algo
         run: echo algo
